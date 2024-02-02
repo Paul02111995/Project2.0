@@ -13,7 +13,7 @@ class TestValidationFunctions(unittest.TestCase):
 
     def test_car_number(self):
         self.assertTrue(is_car_number_valid("РР1234АА"))
-        self.assertTrue(is_car_number_valid("МІ5678ВВ"))
+        self.assertTrue(is_car_number_valid("МI5678KK"))
         self.assertTrue(is_car_number_valid("ХХ9102ББ"))
         self.assertTrue(is_car_number_valid("ЕХ3456ГГ"))
         self.assertFalse(is_car_number_valid("АБ1234CD"))
